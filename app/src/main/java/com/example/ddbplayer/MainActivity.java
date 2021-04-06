@@ -30,7 +30,8 @@ import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity implements SearchView.OnQueryTextListener {
 
-    public static final int REQUEST_CODE = 1;
+    private static final int REQUEST_CODE = 1;
+    private static final String TAG = "songs";
     static ArrayList<MusicFiles> musicFiles;
     static  boolean shuffleBoolean = false, repeatBoolean = false;
     static ArrayList<MusicFiles> albums = new ArrayList<>();

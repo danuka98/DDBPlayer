@@ -131,6 +131,7 @@ public class MusicAdapter extends RecyclerView.Adapter<MusicAdapter.MyVieHolder>
         retriever.release();
         return art;
     }
+
     void updateList(ArrayList<MusicFiles> musicFilesArrayList){
 
         mFiles = new ArrayList<>();
